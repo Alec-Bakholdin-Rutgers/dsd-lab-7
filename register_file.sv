@@ -26,7 +26,7 @@ module register_file(
 		else if(WE3) begin;
 			#1;
 			registers[A3] <= WD3;
-		end;
+		end
 			
 							
 endmodule

@@ -4,8 +4,11 @@ module PC(
     input logic RegWrite, MemWrite,
 
     output logic[31:0] probe_register_file,
-    output logic[31:0] probe_data_memory
+    output logic[31:0] probe_data_memory,
+	 
+	 output logic[6:0] display0, display1, display2
 );
+
     logic[31:0] instruction;
     instruction_memory instruction_memory_inst(clk, rst, instruction_A, instruction);
 
@@ -49,4 +52,11 @@ module PC(
     // MemtoReg MUX
     MUX_MemtoReg MUX_MemtoReg_inst(MemtoReg, ALUResult, RD, WD3);
 
+	 logic[3:0] extended_instruction = 0;
+	 assign extended_instruction[2:0] = instruction_A;
+	 SevenSegmentDisplay SevenSeg0(extended_instruction, display0);
+	 
+	 SevenSegmentDisplay SevenSeg1(probe_register_file[8:5], display2);
+	 SevenSegmentDisplay SevenSeg2(probe_register_file[4:0], display1);
+	 
 endmodule
