@@ -1,0 +1,227 @@
+# Reading pref.tcl
+# do Lab7_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/College/Intel_FPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/College/2021\ Fall/DSD/Lab\ 7 {C:/College/2021 Fall/DSD/Lab 7/sign_extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:36 on Nov 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/College/2021 Fall/DSD/Lab 7" C:/College/2021 Fall/DSD/Lab 7/sign_extend.sv 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 20:22:36 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/College/2021\ Fall/DSD/Lab\ 7 {C:/College/2021 Fall/DSD/Lab 7/MUX_RegDst.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:36 on Nov 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/College/2021 Fall/DSD/Lab 7" C:/College/2021 Fall/DSD/Lab 7/MUX_RegDst.sv 
+# -- Compiling module MUX_RegDst
+# 
+# Top level modules:
+# 	MUX_RegDst
+# End time: 20:22:36 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/College/2021\ Fall/DSD/Lab\ 7 {C:/College/2021 Fall/DSD/Lab 7/MUX_MemtoReg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:36 on Nov 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/College/2021 Fall/DSD/Lab 7" C:/College/2021 Fall/DSD/Lab 7/MUX_MemtoReg.sv 
+# -- Compiling module MUX_MemtoReg
+# 
+# Top level modules:
+# 	MUX_MemtoReg
+# End time: 20:22:36 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/College/2021\ Fall/DSD/Lab\ 7 {C:/College/2021 Fall/DSD/Lab 7/MUX_ALUSrc.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:36 on Nov 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/College/2021 Fall/DSD/Lab 7" C:/College/2021 Fall/DSD/Lab 7/MUX_ALUSrc.sv 
+# -- Compiling module MUX_ALUSrc
+# 
+# Top level modules:
+# 	MUX_ALUSrc
+# End time: 20:22:36 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/College/2021\ Fall/DSD/Lab\ 7 {C:/College/2021 Fall/DSD/Lab 7/data_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:36 on Nov 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/College/2021 Fall/DSD/Lab 7" C:/College/2021 Fall/DSD/Lab 7/data_memory.sv 
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# End time: 20:22:36 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/College/2021\ Fall/DSD/Lab\ 7 {C:/College/2021 Fall/DSD/Lab 7/register_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:36 on Nov 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/College/2021 Fall/DSD/Lab 7" C:/College/2021 Fall/DSD/Lab 7/register_file.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 20:22:36 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/College/2021\ Fall/DSD/Lab\ 7 {C:/College/2021 Fall/DSD/Lab 7/alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:36 on Nov 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/College/2021 Fall/DSD/Lab 7" C:/College/2021 Fall/DSD/Lab 7/alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 20:22:36 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/College/2021\ Fall/DSD/Lab\ 7 {C:/College/2021 Fall/DSD/Lab 7/instruction_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:36 on Nov 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/College/2021 Fall/DSD/Lab 7" C:/College/2021 Fall/DSD/Lab 7/instruction_memory.sv 
+# -- Compiling module instruction_memory
+# 
+# Top level modules:
+# 	instruction_memory
+# End time: 20:22:36 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/College/2021\ Fall/DSD/Lab\ 7 {C:/College/2021 Fall/DSD/Lab 7/PC.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:36 on Nov 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/College/2021 Fall/DSD/Lab 7" C:/College/2021 Fall/DSD/Lab 7/PC.sv 
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# End time: 20:22:36 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {C:/College/2021 Fall/DSD/Lab 7/alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:46 on Nov 14,2021
+# vlog -reportprogress 300 -work work C:/College/2021 Fall/DSD/Lab 7/alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 20:22:46 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/College/2021 Fall/DSD/Lab 7/data_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:46 on Nov 14,2021
+# vlog -reportprogress 300 -work work C:/College/2021 Fall/DSD/Lab 7/data_memory.sv 
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# End time: 20:22:46 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/College/2021 Fall/DSD/Lab 7/instruction_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:46 on Nov 14,2021
+# vlog -reportprogress 300 -work work C:/College/2021 Fall/DSD/Lab 7/instruction_memory.sv 
+# -- Compiling module instruction_memory
+# 
+# Top level modules:
+# 	instruction_memory
+# End time: 20:22:46 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/College/2021 Fall/DSD/Lab 7/MUX_ALUSrc.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:46 on Nov 14,2021
+# vlog -reportprogress 300 -work work C:/College/2021 Fall/DSD/Lab 7/MUX_ALUSrc.sv 
+# -- Compiling module MUX_ALUSrc
+# 
+# Top level modules:
+# 	MUX_ALUSrc
+# End time: 20:22:46 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/College/2021 Fall/DSD/Lab 7/MUX_MemtoReg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:46 on Nov 14,2021
+# vlog -reportprogress 300 -work work C:/College/2021 Fall/DSD/Lab 7/MUX_MemtoReg.sv 
+# -- Compiling module MUX_MemtoReg
+# 
+# Top level modules:
+# 	MUX_MemtoReg
+# End time: 20:22:46 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/College/2021 Fall/DSD/Lab 7/MUX_RegDst.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:46 on Nov 14,2021
+# vlog -reportprogress 300 -work work C:/College/2021 Fall/DSD/Lab 7/MUX_RegDst.sv 
+# -- Compiling module MUX_RegDst
+# 
+# Top level modules:
+# 	MUX_RegDst
+# End time: 20:22:46 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/College/2021 Fall/DSD/Lab 7/PC.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:47 on Nov 14,2021
+# vlog -reportprogress 300 -work work C:/College/2021 Fall/DSD/Lab 7/PC.sv 
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# End time: 20:22:47 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/College/2021 Fall/DSD/Lab 7/PC_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:47 on Nov 14,2021
+# vlog -reportprogress 300 -work work C:/College/2021 Fall/DSD/Lab 7/PC_testbench.sv 
+# -- Compiling module PC_testbench
+# 
+# Top level modules:
+# 	PC_testbench
+# End time: 20:22:47 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/College/2021 Fall/DSD/Lab 7/register_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:47 on Nov 14,2021
+# vlog -reportprogress 300 -work work C:/College/2021 Fall/DSD/Lab 7/register_file.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 20:22:47 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/College/2021 Fall/DSD/Lab 7/sign_extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:22:47 on Nov 14,2021
+# vlog -reportprogress 300 -work work C:/College/2021 Fall/DSD/Lab 7/sign_extend.sv 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 20:22:47 on Nov 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.PC_testbench
+# vsim -gui -l msim_transcript work.PC_testbench 
+# Start time: 20:22:53 on Nov 14,2021
+# Loading sv_std.std
+# Loading work.PC_testbench
+# Loading work.instruction_memory
+# Loading work.PC
+# Loading work.MUX_RegDst
+# Loading work.register_file
+# Loading work.sign_extend
+# Loading work.MUX_ALUSrc
+# Loading work.ALU
+# Loading work.data_memory
+# Loading work.MUX_MemtoReg
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (5) for port 'RegDst_out'. The port definition is at: C:/College/2021 Fall/DSD/Lab 7/MUX_RegDst.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /PC_testbench/PC_inst/MUX_RegDst_inst File: C:/College/2021 Fall/DSD/Lab 7/PC.sv Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'A'. The port definition is at: C:/College/2021 Fall/DSD/Lab 7/data_memory.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /PC_testbench/PC_inst/data_memory_inst File: C:/College/2021 Fall/DSD/Lab 7/PC.sv Line: 47
+add wave -position insertpoint sim:/PC_testbench/PC_inst/*
+run
+run
+run
+# End time: 00:08:05 on Nov 15,2021, Elapsed time: 3:45:12
+# Errors: 0, Warnings: 2

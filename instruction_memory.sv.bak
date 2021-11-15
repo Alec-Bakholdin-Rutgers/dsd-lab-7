@@ -1,0 +1,23 @@
+module instruction_memory(
+    input logic clk, rst,
+    input logic[2:0] A,
+
+    output logic[31:0] RD
+);
+    reg[31:0] instruction_regs[4:0];
+
+    // this is just to make sure that if someone inputs 5, 6, or 7 
+    // (which are possible given logic[2:0]), that the output is defined
+    logic[2:0] true_address;
+    assign true_address = A > 4 ? 4 : A;
+
+    always @(posedge clk or negedge rst)
+    begin
+        if(!rst) begin
+            instruction_regs[0] <= 0;
+            
+        end
+        else
+            RD <= A[true_address];
+
+endmodule

@@ -1,0 +1,28 @@
+module PC_testbench;
+
+    logic clk, rst = 1, RegWrite = 1, MemWrite = 0;
+    logic[2:0] instruction_A = 0;
+    logic[31:0] probe_register_file, probe_data_memory;
+    
+    PC PC_inst(clk, rst, instruction_A, RegWrite, MemWrite, probe_register_file, probe_data_memory);
+    assign RegWrite = instruction_A != 0 & instruction_A != 2;
+    assign MemWrite = instruction_A == 2;
+
+    always
+        begin
+            clk = 1; #20;
+            clk = 0; #20;
+        end
+
+    
+
+    always @(posedge clk)
+        begin
+            if(instruction_A == 0) begin
+                rst = 0; #5;
+                rst = 1;
+            end
+            instruction_A = (instruction_A + 1) % 5;
+        end
+
+endmodule

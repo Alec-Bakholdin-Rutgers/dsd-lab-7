@@ -1,0 +1,267 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/College/2021 Fall/DSD/Lab 7/simulation/modelsim
+vALU
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1636939366
+!i10b 1
+!s100 Mj>S4b3FLDDRj^EXK0KmB1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IFaV_ja=9mL^L9QhdhY^XY1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1636647099
+8C:/College/2021 Fall/DSD/Lab 7/alu.sv
+FC:/College/2021 Fall/DSD/Lab 7/alu.sv
+!i122 9
+L0 1 15
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1636939366.000000
+!s107 C:/College/2021 Fall/DSD/Lab 7/alu.sv|
+!s90 -reportprogress|300|-work|work|C:/College/2021 Fall/DSD/Lab 7/alu.sv|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@a@l@u
+vdata_memory
+R1
+R2
+!i10b 1
+!s100 UlG0g@d;HK:eU:84^IMQI3
+R3
+ICHH9o;DZj:@EKjk_GQ[^S0
+R4
+S1
+R0
+w1636939193
+8C:/College/2021 Fall/DSD/Lab 7/data_memory.sv
+FC:/College/2021 Fall/DSD/Lab 7/data_memory.sv
+!i122 10
+L0 1 28
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/College/2021 Fall/DSD/Lab 7/data_memory.sv|
+!s90 -reportprogress|300|-work|work|C:/College/2021 Fall/DSD/Lab 7/data_memory.sv|
+!i113 1
+R7
+R8
+vinstruction_memory
+R1
+R2
+!i10b 1
+!s100 <27jo]NRJHEZ_ZjN_zg8Z1
+R3
+I65cQ4nAJ8nS?^<1TW=@TZ1
+R4
+S1
+R0
+w1636933478
+8C:/College/2021 Fall/DSD/Lab 7/instruction_memory.sv
+FC:/College/2021 Fall/DSD/Lab 7/instruction_memory.sv
+!i122 11
+Z9 L0 1 27
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/College/2021 Fall/DSD/Lab 7/instruction_memory.sv|
+!s90 -reportprogress|300|-work|work|C:/College/2021 Fall/DSD/Lab 7/instruction_memory.sv|
+!i113 1
+R7
+R8
+vMUX_ALUSrc
+R1
+R2
+!i10b 1
+!s100 TC;R?D3GkYQ_688`0VJe]3
+R3
+I=b8CgIE^ZkDa[`1C=Q:HS1
+R4
+S1
+R0
+w1636647570
+8C:/College/2021 Fall/DSD/Lab 7/MUX_ALUSrc.sv
+FC:/College/2021 Fall/DSD/Lab 7/MUX_ALUSrc.sv
+!i122 12
+Z10 L0 1 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/College/2021 Fall/DSD/Lab 7/MUX_ALUSrc.sv|
+!s90 -reportprogress|300|-work|work|C:/College/2021 Fall/DSD/Lab 7/MUX_ALUSrc.sv|
+!i113 1
+R7
+R8
+n@m@u@x_@a@l@u@src
+vMUX_MemtoReg
+R1
+R2
+!i10b 1
+!s100 Hm`T__3RML:IRU8XiiGPi1
+R3
+IOaUbYJdY>4GA[?3an8gn>2
+R4
+S1
+R0
+w1636742638
+8C:/College/2021 Fall/DSD/Lab 7/MUX_MemtoReg.sv
+FC:/College/2021 Fall/DSD/Lab 7/MUX_MemtoReg.sv
+!i122 13
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/College/2021 Fall/DSD/Lab 7/MUX_MemtoReg.sv|
+!s90 -reportprogress|300|-work|work|C:/College/2021 Fall/DSD/Lab 7/MUX_MemtoReg.sv|
+!i113 1
+R7
+R8
+n@m@u@x_@memto@reg
+vMUX_RegDst
+R1
+R2
+!i10b 1
+!s100 3LL[TbD8528RQMTKIA1^B0
+R3
+I@^To1GKg0YAPZl[:`2eg:0
+R4
+S1
+R0
+w1636647633
+8C:/College/2021 Fall/DSD/Lab 7/MUX_RegDst.sv
+FC:/College/2021 Fall/DSD/Lab 7/MUX_RegDst.sv
+!i122 14
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/College/2021 Fall/DSD/Lab 7/MUX_RegDst.sv|
+!s90 -reportprogress|300|-work|work|C:/College/2021 Fall/DSD/Lab 7/MUX_RegDst.sv|
+!i113 1
+R7
+R8
+n@m@u@x_@reg@dst
+vPC
+R1
+Z11 !s110 1636939367
+!i10b 1
+!s100 bGX=3>8Z:9moRz`85[VC`1
+R3
+I9]<cMMg`11;gA9TFigzcU1
+R4
+S1
+R0
+w1636745037
+8C:/College/2021 Fall/DSD/Lab 7/PC.sv
+FC:/College/2021 Fall/DSD/Lab 7/PC.sv
+!i122 15
+L0 1 52
+R5
+r1
+!s85 0
+31
+Z12 !s108 1636939367.000000
+!s107 C:/College/2021 Fall/DSD/Lab 7/PC.sv|
+!s90 -reportprogress|300|-work|work|C:/College/2021 Fall/DSD/Lab 7/PC.sv|
+!i113 1
+R7
+R8
+n@p@c
+vPC_testbench
+R1
+R11
+!i10b 1
+!s100 lg7XH493kAffGjloIEZLE1
+R3
+IW>h[APE:cYda4P__@a5S01
+R4
+S1
+R0
+w1636747965
+8C:/College/2021 Fall/DSD/Lab 7/PC_testbench.sv
+FC:/College/2021 Fall/DSD/Lab 7/PC_testbench.sv
+!i122 16
+L0 1 33
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/College/2021 Fall/DSD/Lab 7/PC_testbench.sv|
+!s90 -reportprogress|300|-work|work|C:/College/2021 Fall/DSD/Lab 7/PC_testbench.sv|
+!i113 1
+R7
+R8
+n@p@c_testbench
+vregister_file
+R1
+R11
+!i10b 1
+!s100 bfWGS??3=DU0P^ad_@gUB2
+R3
+IDz<Uako`PQROVm<hMj?hd3
+R4
+S1
+R0
+w1636746133
+8C:/College/2021 Fall/DSD/Lab 7/register_file.sv
+FC:/College/2021 Fall/DSD/Lab 7/register_file.sv
+!i122 17
+R9
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/College/2021 Fall/DSD/Lab 7/register_file.sv|
+!s90 -reportprogress|300|-work|work|C:/College/2021 Fall/DSD/Lab 7/register_file.sv|
+!i113 1
+R7
+R8
+vsign_extend
+R1
+R11
+!i10b 1
+!s100 74<7G^c1e]H_HeJHEOeD;1
+R3
+Ic=zfPJFDUIW262RfH9DQM0
+R4
+S1
+R0
+w1636742726
+8C:/College/2021 Fall/DSD/Lab 7/sign_extend.sv
+FC:/College/2021 Fall/DSD/Lab 7/sign_extend.sv
+!i122 18
+R10
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/College/2021 Fall/DSD/Lab 7/sign_extend.sv|
+!s90 -reportprogress|300|-work|work|C:/College/2021 Fall/DSD/Lab 7/sign_extend.sv|
+!i113 1
+R7
+R8
